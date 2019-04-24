@@ -1,5 +1,5 @@
-import React from 'react';
+import { createContext } from 'preact-context'
 
-export const BootstrapContext = React.createContext({
+export const BootstrapContext = createContext({
   bootstrap4: false
 });
